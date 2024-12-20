@@ -33,6 +33,14 @@ $(document).on("keydown", function(){
         $("h3").removeClass("instructions");
     }
 });
+$("h1").click(function(){
+    started++; 
+    if(started === 1){
+        nextSequence()
+        $("#level-title").text("Level " + level); 
+        $("h3").removeClass("instructions");
+    }
+});
 $(".btn").click(function(){ 
     let userChosenColour = (this.id);
     userClickedPattern.push(userChosenColour); //s4 - 4
