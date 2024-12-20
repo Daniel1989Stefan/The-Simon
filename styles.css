@@ -58,5 +58,8 @@ body {
 
 .size{
   font-size: 25px;
+  width: 60%;
+  text-align: center;
+  margin-left: 15%;
 }
 
