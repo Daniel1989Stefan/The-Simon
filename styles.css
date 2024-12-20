@@ -55,3 +55,8 @@ body {
 .instructions{
   visibility: hidden;
 }
+
+.size{
+  font-size: 25px;
+}
+
